@@ -3,11 +3,23 @@ body{
   color:#ffffffff
 }
 
-.movie-app >.row{
+.scroll-container {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-color: white;
+}
+
+.gridscroll{
+  flex-wrap: 0 0 auto;
+  display:inline-flex;
+}
+
+
+
+
+
+/* .movie-app >.row{
 
  overflow-x: auto;
 overflow-y: hidden;
-: nowrap;
-
- 
-}
+} */

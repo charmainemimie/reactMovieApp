@@ -90,11 +90,11 @@ useEffect(()=>{
 },[]); 
 
   return (
-    <div className='container-fluid movie-app'>
-      <div className='row'>
-          <MovieList movies={movies}/>
-      </div>
+    <div className="scroll-container">
+      <div className="gridscroll">
+          <MovieList  movies={movies}/>
     </div>
+  </div>
   );
 };
 
